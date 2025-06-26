@@ -6,8 +6,6 @@ body {
 .principal {
   padding: 2px;
   width: 920px;
-  border: 1px solid rgb(8, 8, 8);
-  border-radius: 5px;
 }
 .noticia {
   margin: 5px;
