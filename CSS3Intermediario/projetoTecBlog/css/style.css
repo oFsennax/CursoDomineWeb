@@ -26,11 +26,19 @@ a:visited {
 a:hover {
   color: orange;
 }
+.a-leia-mais:link {
+  padding: 0px;
+  background-color: black;
+  text-decoration: underline;
+}
 /* LAYOUT */
 .cabecalho {
   background-color: #252525;
   padding: 10px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .logo {
   padding: 10x;
@@ -40,29 +48,41 @@ a:hover {
 }
 .blog {
   color: rgb(168, 168, 168);
-  
 }
-.area-principal{
-    background: silver;
-    width: 920px;
-    margin: 0 auto;
+.area-principal {
+  background: silver;
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 120px;
 }
-.conteudos{
-    width: 660px;
-    float: left;
+.conteudos {
+  width: 660px;
+  float: left;
+  padding: 5px;
 }
-.area-lateral{
-    width: 240px;
-    float: right;
+.postagem {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+.data-postagem{
+  padding: 5px;
+  font-size: 0.8em;
+}
+.area-lateral {
+  width: 240px;
+  float: right;
 }
 
-.area-lateral, .conteudos{
-    background: red;
+.area-lateral,
+.conteudos {
+  background: rgb(226, 223, 223);
 }
-.rodape{
-    clear: both;
-    background: #252525;
-    text-align: center;
-    padding: 2px ;
-    color: white;
+.rodape {
+  clear: both;
+  background: #252525;
+  text-align: center;
+  padding: 2px;
+  color: white;
 }
