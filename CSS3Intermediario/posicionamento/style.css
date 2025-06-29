@@ -1,0 +1,22 @@
+.container{
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+body{
+    background: rgba(0, 0, 0, 0.603);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+
+}
+p{
+    width: 300px;
+}
+.relative{
+    border: 1px solid red;
+    position: relative;
+    /* MOVE O ELEMENTO APARTIR DO PONTO INICIAL */
+}

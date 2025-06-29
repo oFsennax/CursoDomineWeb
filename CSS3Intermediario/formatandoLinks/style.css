@@ -1,0 +1,24 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+a:link{
+    /* LINKS NÃO VISITADOS */
+color: blue;
+}
+a:visited{
+    /* LINKS VISITADOS */
+    color: blueviolet;
+}
+a:hover{
+    /* LINKS HOVER, PASSA O CURSOS SOBRE O LINK  */
+    color: aqua;
+}
+a:active{
+    /* LINKS ATIVOS QUANDO CLICADO */
+color: rgb(4, 238, 109);
+}
