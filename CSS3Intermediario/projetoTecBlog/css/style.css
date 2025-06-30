@@ -12,35 +12,33 @@ body {
 
 h1 {
   color: orange;
-  padding-bottom: 10px;
   font-size: 2.5em;
   text-align: center;
 }
 
 a {
-  padding: 10px;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-style: italic;
-  display: inline-block;
-}
-a:link,
-a:visited {
   color: white;
 }
+
 a:hover {
   color: orange;
 }
-.a-leia-mais:link {
-  padding: 0;
-  background-color: black;
+
+.a-leia-mais {
+  display: inline-block;
+  margin-top: 10px;
   text-decoration: underline;
+  background-color: black;
+  padding: 5px 10px;
+  color: white;
 }
 
-/* LAYOUT */
 .cabecalho {
   background-color: #252525;
-  padding: 10px;
+  padding: 20px 10px;
   text-align: center;
   position: fixed;
   top: 0;
@@ -49,65 +47,74 @@ a:hover {
 }
 
 .logo {
-  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .menu {
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-.blog {
-  color: rgb(168, 168, 168);
-}
-
 .area-principal {
-  background: silver;
-  max-width: 920px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 140px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 10px;
+  gap: 20px;
 }
 
 .conteudos {
   flex: 1 1 100%;
   background: rgb(226, 223, 223);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .area-lateral {
   flex: 1 1 100%;
   background: rgb(226, 223, 223);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .postagem {
-  padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.363);
+  background: white;
   border-radius: 12px;
-  margin-bottom: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #0000003f;
+}
+
+.postagem img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
 }
 
 .data-postagem {
-  padding: 5px;
   font-size: 0.8em;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .rodape {
-  clear: both;
-  background: #252525;
+  width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  background: #252525;
   color: white;
   margin-top: 20px;
+  border-radius: 10px;
 }
 
-/* RESPONSIVO */
+/* Layout para telas maiores */
 @media (min-width: 768px) {
   .conteudos {
     flex: 0 0 68%;
@@ -115,9 +122,5 @@ a:hover {
 
   .area-lateral {
     flex: 0 0 30%;
-  }
-
-  .menu {
-    justify-content: center;
   }
 }
