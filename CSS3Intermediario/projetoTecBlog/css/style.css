@@ -24,9 +24,12 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: #D84F2D;
+  text-decoration: underline;
 }
-
+.off{
+  text-decoration: line-through;
+}
 .a-leia-mais {
   display: inline-block;
   margin-top: 10px;
