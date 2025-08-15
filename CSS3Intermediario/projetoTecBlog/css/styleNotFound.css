@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(../img/404.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+a {
+  font-weight: bold;
+  background-color: red;
+  color: black;
+}
