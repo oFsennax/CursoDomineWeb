@@ -1,0 +1,39 @@
+/*HERANÇA*/
+/* *{
+    border: 1px solid red;
+} */
+/*RECOMENDADO APLICAR FORMATAÇÕES GENERICAS*/
+/* body {
+  color: red;
+  font-size: 25px;
+  background-color: #252525;
+  border: 1px solid blue;
+} */
+
+
+/*NO CASO DE 2 SELETORES IGUAIS, SEMPRE O ULTIMO SERA APLICADO*/
+/*ESPECIFICIDADE*/
+p{
+    color: blue !important;  /*O SELETOR PASSA A TER IMPORTANCIA*/
+}
+
+p{
+    color: red;
+}
+
+/* O #ID E MAIS ESPECIFICO DO QUE A .CLASS */
+*{
+    color: red;
+}
+/* 3º */
+h2{
+    color: blue;
+}
+/* 2º */
+h2.green{
+    color: green;
+}
+/* 1º PRIORIDADE ID*/
+h2#yellow{
+    color: yellow;
+}
