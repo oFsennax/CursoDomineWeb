@@ -1,0 +1,23 @@
+/* SELETOR UNIVERSAL*/
+/* *{
+    border: 1px solid red;
+} */
+
+/*SELETOR DE TEXTO*/
+h1{
+    color: darkred;
+}
+/* 
+/*SELETOR DE CLASSE*/
+/* .verde{
+    color: green;
+} */
+/*SELETOR DE CLASSE - APLICANDO COR VERDE EM PARAGRAFO*/
+p.verde{
+    color: green;
+}
+li>a{
+    color: red;
+    /*REMOVE UNDERLINE_*/
+    text-decoration: none;
+}
