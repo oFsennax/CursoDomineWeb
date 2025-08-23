@@ -22,7 +22,12 @@ a {
   font-style: italic;
   color: white;
 }
-
+.a-menu-lateral{
+    text-decoration: none;
+  font-size: 0.1em;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
 a:hover {
   color: #d84f2d;
   text-decoration: underline;
@@ -43,7 +48,11 @@ a:hover {
   font-size: 1em;
   font-style: italic;
   background-color: #252525;
-
+}
+.a-menu-lateral-categorias {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
 }
 .cabecalho {
   background-color: #252525;
@@ -90,6 +99,24 @@ a:hover {
   background: rgb(226, 223, 223);
   padding: 10px;
   border-radius: 10px;
+  height: auto;
+}
+.container-postagem-recentes{
+  background-color: white;
+  border-radius: 10px;
+}
+.container-postagem-recentes{
+  background-color: white;
+  border-radius: 10px;
+}
+.area-lateral-categorias {
+  flex: 1 1 100%;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+  margin-top: 10px; 
+  position: static; 
 }
 
 .postagem {
@@ -112,9 +139,11 @@ a:hover {
   color: #555;
   margin-bottom: 10px;
   display: block;
+  padding-left: 5px;
 }
 .postagem-lateral {
-  padding: 5px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 .rodape {
   width: 100%;
