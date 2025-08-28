@@ -28,19 +28,20 @@
     <meta property="og:image:height" content="630" />
   </head>
   <body>
-    <div class="cabecalho">
-      <div class="logo">
-        <h1>TEC<span class="blog">BLOG</span></h1>
-      </div>
-      <hr />
-      <div class="menu">
-        <a href="./index.html">HOME</a>
-        <a class="off" href="./notFound.html">JOGOS</a>
-        <a class="off" href="./notFound.html">CELULARES</a>
-        <a class="off" href="./notFound.html">INFORMÁTICA</a>
-        <a class="off" href="./notFound.html">ELETRÔNICOS</a>
-      </div>
-    </div>
+    <header class="cabecalho">
+      <h1 class="logo">TEC<span style="color: #ce432c">BLOG</span></h1>
+
+      <button class="menu-toggle" aria-label="Abrir Menu">&#9776;</button>
+
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Jogos</a>
+        <a href="#">Celulares</a>
+        <a href="#">Informática</a>
+        <a href="#">Eletrônicos</a>
+      </nav>
+    </header>
+
     <div class="area-principal">
       <div class="conteudos">
         <div class="postagem">
@@ -109,5 +110,13 @@
       </div>
       <div class="rodape">Todos os direitos reservados</div>
     </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
+
+      menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+    </script>
   </body>
 </html>
