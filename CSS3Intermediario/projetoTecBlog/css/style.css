@@ -23,7 +23,7 @@ a {
   color: white;
 }
 .a-menu-lateral{
-    text-decoration: none;
+  text-decoration: none;
   font-size: 0.1em;
   font-style: italic;
   color: rgb(255, 255, 255);
@@ -155,7 +155,6 @@ a:hover {
   border-radius: 10px;
 }
 
-/* Layout para telas maiores */
 @media (min-width: 768px) {
   .conteudos {
     flex: 0 0 68%;
@@ -163,5 +162,24 @@ a:hover {
 
   .area-lateral {
     flex: 0 0 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .menu a {
+    font-size: 1em;
+    padding: 8px 12px;
+    display: block;
+    background-color: #333;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
   }
 }
