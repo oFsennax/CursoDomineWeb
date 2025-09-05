@@ -1,0 +1,77 @@
+body{
+    font-family: sans-serif;
+    color: white;
+}
+/* LAYOUT LIQUIDO UTILIZA % PARA DEFINIÇÃO DAS TELAS */
+.container{
+    width: 80%;
+    margin: 0 auto; /*Definindo margin 0 para superior e inferior, auto para esquerda e direita*/
+    background: #252525;
+    min-width: 720px;
+    /* max-width: 960px; */
+
+}
+.marca{
+    width: 100%;
+    height: 200px;
+    background: #215891 url(./img/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+
+}
+.conteudo{
+    background: rgb(66, 66, 66);
+    width: 75%;
+    float: right;
+}
+.conteudo-principal{
+    width: 63%;
+    float: left;
+}   
+img.imagem{
+    width: 96%;
+    padding: 2%;
+}
+.conteudo-secundario{
+    width: 34%;
+    float: right;
+    background: rgb(255, 192, 192);
+}
+.conteudo-secundario h1, h2, h3, p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #252525;
+}
+.rodape{
+    clear: both; /*Limpa estruturas flutuantes*/
+    background: #0027c3;
+    padding: 5px;
+}
+ul {
+  width: 20%;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5px;
+}
+ul a{
+    width: 170px;
+    height: 40px;
+    background-color: #37373700;
+    border-bottom: 2px solid rgb(0, 26, 255);
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aqua;
+}
