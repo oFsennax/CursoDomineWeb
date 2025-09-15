@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+}
+table {
+    width: 600px;
+    border-collapse: collapse; /*REMOVE OS ESPAÇAMENTOS DA TABELA*/
+}
+th, td {
+    border-bottom: 1px solid black;
+    padding: 7px;
+    /* border-left: 1px solid black; */
+}
+th {
+    text-transform: uppercase; /*TRANSFORMA O TEXTO EM LETRA MAIUSCULA*/
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    letter-spacing: 0.1em; /*ESPAÇAMENTO ENTRE AS LETRAS*/
+}
+td{
+    text-align: center;
+}
+tr.zebrado{
+background: silver;
+}
+.valor-monetario{
+    text-align: right;
+}
+tr:hover{
+    background-color:rgba(0, 0, 255, 0.489);
+}
