@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    margin: 1em 0 ; /*ESPAÇAMENTO DE 1EM NO TOP E ZERO NAS LATERAIS*/
+    padding: 1em;
+    border: 1px #252525 solid;
+}
+label{
+    display: block; /*RETIRA INLINE DO LABEL*/
+    cursor: pointer; /*CURSOS CLICAVEL NO LABEL*/
+}
+input/*  [type="text"]FORMATA ATRIBUTO ESPECIFICO */{
+    width: 20em;
+}
+textarea{
+    width: 20em;
+    height: 10em;
+}
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+.radio{
+    margin-right: 1em ;
+}
