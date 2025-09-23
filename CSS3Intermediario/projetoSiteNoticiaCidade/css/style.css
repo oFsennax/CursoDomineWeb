@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+h2{
+    font-size: 1em;
+    background: #294C71;
+    color: white;
+    padding: 5px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #fff url(../img/fundo.png) repeat-x;
@@ -58,5 +64,86 @@ body.fotos .navegacao a#fotos{
     color: #fff;
     background: #de003e;
     cursor: text;
- 
+}
+/* CONFIGURA LAYOUT 3 COLUNAS */
+.conteudo{
+    background: silver;
+    margin-top: 90px;
+}
+
+.primario{
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+.duas-colunas .primario{
+    width: 555px;
+}
+.uma-coluna .primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+.secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+.lateral{
+    width: 180px;
+    float: left;
+   margin: 0 0 20px -750px;
+
+}
+.lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    list-style: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+.lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left;
+    padding-left: 20px;
+}
+.caixa{
+    margin: 10px 0;
+    background: silver url(../img/fundo-caixa.png);
+    padding: 5px 0  5px 0;
+}
+.caixa-conteudo{
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+.container-rodape{
+    clear: both;
+    background: #294C71;
+    padding: 20px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: white;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    margin-top: 2px;
+}
+.rodape{
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
