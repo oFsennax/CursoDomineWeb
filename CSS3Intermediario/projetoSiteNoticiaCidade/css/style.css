@@ -8,6 +8,24 @@ h2{
     color: white;
     padding: 5px;
 }
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #294C71;
+    color: #fff;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 2px solid #294C71;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #fff url(../img/fundo.png) repeat-x;
@@ -15,10 +33,9 @@ body{
 .container{
     width: 750px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .topo{
-    height: 150px;
+    height: 130px;
     background: url(../img/detalhe-topo.png) no-repeat right;
 
 }
