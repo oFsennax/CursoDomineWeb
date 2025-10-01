@@ -22,6 +22,27 @@ h3{
     background: #294C71;
     color: #fff;
 }
+.lista-noticias li p{
+    padding: 2px;
+    color: black;
+}
+.lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid silver;
+    height: 65px;
+}
+.lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+.lista-noticias li a{
+    text-decoration: none;
+   font-size: 0.8em;
+}
+.lista-noticias li:hover{
+   background: #a1a1a133;
+   cursor: pointer;
+}   
 img.imagem-principal{
     width: 98%;
     border: 2px solid #294C71;
@@ -38,6 +59,14 @@ body{
     height: 130px;
     background: url(../img/detalhe-topo.png) no-repeat right;
 
+}
+/* BARRA DE NAVEGAÇÃO */
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
 }
 .logo{
     width: 152px;
