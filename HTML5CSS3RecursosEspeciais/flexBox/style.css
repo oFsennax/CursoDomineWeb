@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CONTAINER PAI */
+.conteudo {
+  background: #dcdcdc;
+  height: 600px;
+  display: flex;
+}
+/* ESTILIZAÇÃO PADRÃO */
+.item {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background: white;
+  border: 1px solid red;
+  /* flex-grow: 1; DEFINE A PROPORÇÃO DE ESPAÇO OCUPADO POR UM ITEM (EXPANSÃO)*/
+  /* flex-shrink: 1; DEFINE A CAPACIDADE DE REDUÇÃO DE TAMANHO DE ITEM (RETRAÇÃO) */
+  flex-basis: ; /*INDICA O TAMANHO INICIAL DO FLEX ITEM ANTES DA DISTRIBUIÇÃO DO ESPAÇO RESTANTE*/
+}
+/* FAZ O ITEM CRESCER ATÉ O ESPAÇO COMPLETO DO CONTAINER (PAI) */
+/* .item1 {
+  flex-grow: 1;
+} */
+/* UTILIZANDO FLEX ITENS (FILHOS) PARA ORDENIZAR*/
+.order1 {
+  order: 1;
+}
+.order2 {
+  order: 2;
+}
+.order3 {
+  order: 3;
+}
+.order4 {
+  order: 4;
+}
