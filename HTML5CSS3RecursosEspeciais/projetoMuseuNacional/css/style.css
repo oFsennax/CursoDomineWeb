@@ -58,13 +58,14 @@ nav ul li a:hover {
 .conteudo {
   width: 710px;
   float: left;
-  background: green;
+  margin-bottom: 20px;
 }
 aside {
   width: 350px;
   float: right;
   padding-bottom: 30px;
   background: #ebe7dd;
+  margin-bottom: 20px;
 }
 section.visita {
   background: #cdc8b1;
@@ -83,6 +84,32 @@ section.galeria a {
 }
 section.galeria img {
   margin: 2px 3px;
+}
+article.video {
+  float: left;
+  width: 310px;
+  margin-left: 27px;
+}
+article.mapa {
+  float: left;
+  width: 310px;
+  margin-left: 37px;
+}
+article.exposicoes {
+  float: left;
+  width: 310px;
+  margin-top: 15px;
+}
+article.historia {
+  float: left;
+  width: 310px;
+  margin-left: 65px;
+}
+h3 {
+  color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 h4 {
   color: #86521a;
@@ -118,4 +145,14 @@ fieldset {
 }
 legend {
   display: none;
+}
+footer {
+  clear: both;
+  padding: 20px 0 30px;
+  text-align: center;
+  background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+footer li {
+  display: inline-block;
+  margin: 0 25px;
 }
